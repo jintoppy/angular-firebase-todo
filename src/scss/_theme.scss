@@ -42,6 +42,6 @@ $angular-firebase-todo-dark-theme: mat.define-dark-theme((
 @include mat.all-component-themes($angular-firebase-todo-light-theme);
 
 .dark-theme {
-    @include mat.all-component-themes($angular-firebase-todo-dark-theme);
+    @include mat.all-component-colors($angular-firebase-todo-dark-theme);
 }
 
